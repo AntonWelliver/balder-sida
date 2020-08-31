@@ -1,0 +1,81 @@
+body {
+    background: aqua;
+    color: black;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+#navbar-brand {
+    color: black;
+}
+
+#nav-link {
+    color: black;
+}
+
+#home-title {
+    color: black;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#home-img {
+    height: 90%;
+}
+
+#home-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 900px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.6;
+}
+
+#home-section .fas,
+#create-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.title-header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.title-header1 {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    border-top: 1px solid black;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
