@@ -4,7 +4,8 @@ body {
 }
 
 .navbar {
-    opacity: 0.8;
+    opacity: 0.9;
+    font-weight: bold;
 }
 
 #navbar-brand {
@@ -16,9 +17,11 @@ body {
 }
 
 #home-title {
-    color: black;
     font-weight: bold;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(81, 0, 128);
 }
 
 #home-img {
@@ -45,37 +48,12 @@ body {
     padding-top: 150px;
 }
 
-#home-section .card-form {
-    opacity: 0.6;
-}
-
-#home-section .fas,
-#create-section .fas {
-    color: #008ed6;
-    background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#explore-section .fas,
-#share-section .fas {
-    background: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 .title-header {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.title-header1 {
-    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .footer {
-    border-top: 1px solid black;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
 }
