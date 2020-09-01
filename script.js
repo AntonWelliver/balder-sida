@@ -13,7 +13,7 @@ $("#main-nav a").on('click', function (event) {
 
         $('html, body').animate({
             scrollTop: $(hash).offset().top
-        }, 800, function () {
+        }, 2000, function () {
 
             window.location.hash = hash;
         });

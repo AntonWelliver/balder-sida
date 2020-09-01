@@ -1,5 +1,5 @@
 body {
-    background: aqua;
+    background: #3fc4d0;
     color: black;
 }
 
@@ -25,7 +25,8 @@ body {
 }
 
 #home-img {
-    height: 90%;
+    height: 70%;
+    border-radius: 150px;
 }
 
 #home-section {
