@@ -201,7 +201,7 @@ section h3 {
 .slider {
     position: relative;
     overflow: hidden;
-    height: 50vh;
+    height: 70vh;
     width: 30vw;
 }
 
@@ -228,6 +228,7 @@ section h3 {
     background-color: rgba(255, 255, 255, 0.8);
     color: #333;
     padding: 35px;
+    transition: all 0.5s ease-in-out;
 }
 
 .slide .content h1 {
@@ -237,7 +238,7 @@ section h3 {
 .slide.current.show .content {
     opacity: 1;
     transform: translateX(600px);
-    transition: all 0.7s ease-in-out 0.3s;
+    transition: all 0.5s ease-in-out;
 }
 
 .buttons button#next {
@@ -274,7 +275,7 @@ section h3 {
         width: 100%;
     }
 
-    .slide.current .content {
+    .slide.current.show .content {
         transform: translateY(-300px);
     }
 }
@@ -282,28 +283,14 @@ section h3 {
 /* Backgorund Images */
 
 .slide:first-child {
-    background: url("https://source.unsplash.com/RyRpq9SUwAU/1600x900")
-        no-repeat center top/cover;
+    background-image: url("./img/balder-guevara.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slide:nth-child(2) {
-    background: url("https://source.unsplash.com/BeOW_PJjA0w/1600x900")
-        no-repeat center top/cover;
-}
-.slide:nth-child(3) {
-    background: url("https://source.unsplash.com/TMOeGZw9NY4/1600x900")
-        no-repeat center top/cover;
-}
-.slide:nth-child(4) {
-    background: url("https://source.unsplash.com/yXpA_eCbtzI/1600x900")
-        no-repeat center top/cover;
-}
-.slide:nth-child(5) {
-    background: url("https://source.unsplash.com/ULmaQh9Gvbg/1600x900")
-        no-repeat center top/cover;
-}
-.slide:nth-child(6) {
-    background: url("https://source.unsplash.com/ggZuL3BTSJU/1600x900")
-        no-repeat center center/cover;
+    background-image: url("./img/balder-guevara2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dot-container {

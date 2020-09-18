@@ -7,6 +7,9 @@ let auto = true; // Auto scroll
 const intervalTime = 5000;
 let slideInterval;
 
+const dotList = document.querySelectorAll(".dot");
+const dotContainer = document.querySelector(".dot-container");
+
 const nextSlide = () => {
     const current = document.querySelector('.current');
     current.classList.remove('current');
@@ -61,7 +64,6 @@ slider.addEventListener('mouseleave', (e) => {
     current.classList.remove("show");
 
     auto = true;
-    /* nextSlide(); */
     clearInterval(slideInterval);
     slideInterval = setInterval(nextSlide, intervalTime);
 });
@@ -70,3 +72,15 @@ slider.addEventListener('mouseleave', (e) => {
 if (auto) {
     slideInterval = setInterval(nextSlide, intervalTime);
 }
+
+dotContainer.addEventListener('click', (e) => {
+    if (e.target.classList.contains("dot")) {
+        const selectedDotId = parseInt(e.target.dataset.id);
+        selectedImage = slideList[selectedDotId - 1];
+
+        const current = document.querySelector(".current");
+        current.classList.remove("current");
+
+        selectedImage.classList.add("current");
+    }
+});
