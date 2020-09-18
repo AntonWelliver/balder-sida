@@ -18,10 +18,10 @@ body {
     z-index: 1;
     display: flex;
     width: 100%;
-    opacity: 0.9;
     font-weight: bold;
     font-size: 1.1rem;
     padding-top: 1rem;
+    /* background: rgba(63, 196, 208, 0.1); */
 }
 
 .navbar #navbar-brand {
@@ -69,7 +69,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 900px;
+    min-height: 100vh;
 }
 
 #home-section .home-inner {
