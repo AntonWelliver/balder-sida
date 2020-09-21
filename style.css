@@ -81,9 +81,40 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.section-style-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+/* .section-style-spotify2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+} */
+
+.spotify-container {
+    height: 20vh;
+    width: 25vw;
+    margin-left: 10vw;
+}
+
+.spotify-follow-button {
+    height: 7vh;
+    width: 15vw;
+}
+
 .section-img {
     height: 60vh;
     width: 30vw;
+    margin-left: 10vw;
+}
+
+.section-img-spotify {
+    height: 50vh;
+    width: 25vw;
     margin-left: 10vw;
 }
 
