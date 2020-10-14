@@ -85,6 +85,11 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.section-style2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .section-style-spotify {
     display: flex;
     flex-direction: column;
@@ -142,7 +147,6 @@ section h3 {
     width: 80%;
     justify-self: end;
     margin-right: 10vw;
-    border: 1px solid black;
 }
 
 .about-text {
@@ -366,6 +370,28 @@ section h3 {
     body {
         background-color: blue;
     }
+    .section-style2 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .section-img-spotify {
+        height: 50vh;
+        width: 30vw;
+        padding: 0;
+        margin: 0;
+    }
+    .spotify-container {
+        height: 27vh;
+        width: 30vw;
+        padding: 0;
+        margin: 0;
+    }
+    .section-img-video {
+        height: 77vh;
+        width: 70vw;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -379,14 +405,15 @@ section h3 {
         display: none;
     }
     .menu-button {
-        display: block;
+        display: flex;
         position: fixed;
-        background-color: white;
+        background-color: #3fc4d0;
         padding: 10px;
         margin: 0;
         border: none;
         width: 100%;
         z-index: 10;
+        justify-content: center;
     }
 }
 
@@ -412,7 +439,7 @@ section h3 {
     .about-text {
         font-size: 0.8rem;
     }
-    .section-style {
+    .section-style2 {
         grid-template-columns: 100%;
     }
     .slider {
@@ -431,5 +458,24 @@ section h3 {
     .menu-button {
         width: 100%;
         z-index: 10;
+    }
+    .section-img-spotify {
+        display: none;
+    }
+    .spotify-container {
+        height: 20vh;
+        width: 100vw;
+        left: 10%;
+        right: 10%;
+        padding: 0;
+        margin: 0;
+    }
+    .section-img-video {
+        height: 55vh;
+        width: 100vw;
+        left: 10%;
+        right: 10%;
+        padding: 0;
+        margin: 0;
     }
 }
