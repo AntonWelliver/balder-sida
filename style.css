@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,11 @@
 body {
     background: #3fc4d0;
     color: black;
-    font-family: "Oswald", sans-serif;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.menu-button {
+    display: none;
 }
 
 .navbar {
@@ -133,6 +137,20 @@ section h3 {
     margin-right: 10vw;
 }
 
+.text-container1 {
+    height: 100%;
+    width: 80%;
+    justify-self: end;
+    margin-right: 10vw;
+    border: 1px solid black;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    text-align: left;
+    word-wrap: break-word;
+}
+
 #about-head-section {
     width: 100%;
     text-align: center;
@@ -248,7 +266,7 @@ section h3 {
     bottom: 70px;
     left: -600px;
     opacity: 0;
-    width: 600px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     padding: 35px;
@@ -293,7 +311,7 @@ section h3 {
     color: #333;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .slide .content {
         bottom: -300px;
         left: 0;
@@ -311,11 +329,13 @@ section h3 {
     background-image: url("./img/balder-guevara.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .slide:nth-child(2) {
     background-image: url("./img/balder-guevara2.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .dot-container {
@@ -340,4 +360,76 @@ section h3 {
 
 .dot:hover {
     background-color: #717171;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .navbar {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+        position: fixed;
+        background-color: white;
+        padding: 10px;
+        margin: 0;
+        border: none;
+        width: 100%;
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 953px) {
+    .about-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .about-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .about-text {
+        font-size: 0.8rem;
+    }
+    .section-style {
+        grid-template-columns: 100%;
+    }
+    .slider {
+        height: 35vh;
+        width: 80vw;
+        left: 10%;
+        right: 10%;
+        padding: 0;
+        margin: 0;
+    }
+    .text-container1 {
+        height: 35vh;
+        width: 80vw;
+        justify-self: end;
+    }
+    .menu-button {
+        width: 100%;
+        z-index: 10;
+    }
 }

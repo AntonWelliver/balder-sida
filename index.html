@@ -10,6 +10,9 @@
     </head>
 
     <body data-spy="scroll" data-target="#main-nav">
+        <button class="menu-button" id="menu-button">
+            <i class="fas fa-bars fa-2x"></i>
+        </button>
         <div class="navbar" id="main-nav">
             <a href="index.html" id="navbar-brand">Balder Musik</a>
             <ul>
@@ -58,60 +61,36 @@
                             </div>
                         </div>
                         <div class="buttons">
-                            <button id="prev"><i class="fas fa-arrow-left"></i></button>
-                            <button id="next"><i class="fas fa-arrow-right"></i></button>
+                            <button id="prev">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <button id="next">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
                         </div>
                         <div class="dot-container">
                             <span class="dot" data-id="1"></span>
                             <span class="dot" data-id="2"></span>
                         </div>
                     </div>
-                    
-                    <div
-                        class="text-container"
-                    >
+
+                    <div class="text-container1">
                         <h3>Vem är jag?</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Aliquam illo cupiditate beatae mollitia
-                            consectetur harum enim temporibus accusantium
-                            tempore, tenetur illum voluptate reprehenderit
-                            laudantium non quod dolore. Maiores, minus. Eligendi
-                            dolorum recusandae reprehenderit accusamus excepturi
-                            earum rerum, non fuga ab exercitationem dicta
-                            provident illo impedit sapiente cum harum ex nulla
-                            eaque? Temporibus odio, perspiciatis, voluptates
-                            consequuntur quaerat ab hic, alias corporis a
-                            accusantium optio reprehenderit facilis molestiae
-                            explicabo ullam. A quae numquam, sequi dolore
-                            laudantium autem dolor. Quibusdam, fugiat nam at
-                            iure voluptas, eligendi et distinctio, quia quasi
-                            quidem error? Expedita sit, provident nihil eos
-                            debitis illo? Eius, accusantium! Molestiae.
-                        </p>
-                    </br>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptas quis qui dolores delectus commodi eum
-                            nesciunt quisquam iusto dolor! Laudantium saepe
-                            culpa soluta sequi quas hic accusantium, rem placeat
-                            nihil.
-                        </p>
-                    </br>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptas quis qui dolores delectus commodi eum
-                            nesciunt quisquam iusto dolor! Laudantium saepe
-                            culpa soluta sequi quas hic accusantium, rem placeat
-                            nihil.
-                        </p>
-                    </br>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptas quis qui dolores delectus commodi eum
-                            nesciunt quisquam iusto dolor! Laudantium saepe
-                            culpa soluta sequi quas hic accusantium, rem placeat
-                            nihil.
+                        <p class="about-text">
+                            Jag heter Balder Guevara och är en Göteborgsbaserad
+                            artist som rappar sjunger och skriver. Jag använder
+                            mig av musiken för att förmedla mina tankar kring
+                            livet, nutidens samhälle och viktiga människor i min
+                            närhet. Att skriva musik och uttrycka mig i text har
+                            alltid varit som terapi för mig. <br />Jag hoppas
+                            att mina låtar kan sprida glädje och inspiration
+                            till er och viktigast av allt förmedla berättelser
+                            som berör er som lyssnare. Om jag lyckas med detta
+                            så kan jag känna mig nöjd. <br />26 Juni kom min
+                            debutsingel “Den Jag Är” som är en öppen och lekfull
+                            introduktion till mig själv som artist. Musikvideon
+                            till “Den Jag Är” har spelats in och beräknas komma
+                            ut snart.
                         </p>
                     </div>
                 </div>
@@ -131,8 +110,14 @@
                         <img
                             src="img/balder-omslag.jpeg"
                             class="section-img-spotify"
-                            />
-                        <iframe class="spotify-container" src="https://open.spotify.com/embed/album/3c7wxRG0MJRSqu6HX1V1b7" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        />
+                        <iframe
+                            class="spotify-container"
+                            src="https://open.spotify.com/embed/album/3c7wxRG0MJRSqu6HX1V1b7"
+                            frameborder="0"
+                            allowtransparency="true"
+                            allow="encrypted-media"
+                        ></iframe>
                         <!-- <iframe class="spotify-follow-button" src="https://open.spotify.com/follow/1/?uri=spotify:artist:5Ma28EMJfrzyxUF14TI1lc?si=z2dPCuQ7T9OFIdEAjV8mAA&size=detail&theme=light" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
                     </div>
                     <div>
@@ -154,13 +139,8 @@
             <!-- EVENT SECTION -->
             <section id="event-section">
                 <div class="section-style">
-                    <img
-                        src="img/balder-omslag.jpeg"
-                        class="section-img"
-                    />
-                    <div
-                        class="text-container"
-                    >
+                    <img src="img/balder-omslag.jpeg" class="section-img" />
+                    <div class="text-container">
                         <h3>Nyheter</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -180,7 +160,7 @@
                             quidem error? Expedita sit, provident nihil eos
                             debitis illo? Eius, accusantium! Molestiae.
                         </p>
-                        <br>
+                        <br />
                         <h3>Event</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -210,13 +190,8 @@
             <!-- CONTACT SECTION -->
             <section id="contact-section">
                 <div class="section-style">
-                    <img
-                        src="img/SPS-vit.svg"
-                        class="section-img"
-                    />
-                    <div
-                        class="text-container"
-                    >
+                    <img src="img/SPS-vit.svg" class="section-img" />
+                    <div class="text-container">
                         <h3>Kontaktuppgifter</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -272,6 +247,5 @@
         ></script>
         <script src="script.js"></script>
         <script src="slideshow.js"></script>
-        
     </body>
 </html>
