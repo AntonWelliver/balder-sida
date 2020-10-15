@@ -24,6 +24,11 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 5;
+    display: none;
+}
+
+.nav-bg.show {
+    display: block;
 }
 
 .nav-content {
@@ -51,7 +56,6 @@ body {
     font-weight: bold;
     font-size: 1.1rem;
     padding-top: 1rem;
-    /* background: rgba(63, 196, 208, 0.1); */
 }
 
 .navbar #navbar-brand {
@@ -125,13 +129,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-/* .section-style-spotify2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10vw;
-} */
 
 .spotify-container {
     height: 20vh;
