@@ -90,6 +90,11 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.section-style3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .section-style-spotify {
     display: flex;
     flex-direction: column;
@@ -429,6 +434,30 @@ section h3 {
     }
 }
 
+@media screen and (max-width: 870px) {
+    .section-img {
+        display: none;
+    }
+    .news {
+        grid-template-columns: 100%;
+    }
+    .contact {
+        grid-template-columns: 100%;
+    }
+    .text-container2 {
+        height: 45vh;
+        width: 100vw;
+        justify-self: center;
+    }
+    .text-container3 {
+        height: 45vh;
+        width: 50vw;
+        justify-self: center;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 775px) {
     .about-text {
         font-size: 1rem;
@@ -457,6 +486,12 @@ section h3 {
         height: 35vh;
         width: 80vw;
         justify-self: end;
+    }
+    .text-container2 {
+        font-size: 0.9rem;
+    }
+    .text-container3 {
+        font-size: 1rem;
     }
     .menu-button {
         width: 100%;
