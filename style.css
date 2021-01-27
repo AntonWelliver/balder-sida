@@ -249,7 +249,7 @@ section h3 {
 	height: 77vh;
 }
 
-#contact-head-section {
+/* #contact-head-section {
 	width: 100%;
 	text-align: center;
 	font-size: 2rem;
@@ -260,7 +260,7 @@ section h3 {
 #contact-section {
 	background-image: linear-gradient(#3fc4d0, white);
 	height: 77vh;
-}
+} */
 
 .footer {
 	height: 7rem;
@@ -542,9 +542,9 @@ section h3 {
 	.news {
 		grid-template-columns: 100%;
 	}
-	.contact {
+	/* .contact {
 		grid-template-columns: 100%;
-	}
+	} */
 	.text-container2 {
 		height: 45vh;
 		width: 100vw;
