@@ -15,27 +15,27 @@
             <h2 style="font-weight: bold; margin-left: 5px">Meny</h2>
         </button>
         <div class="navbar" id="main-nav">
-            <a href="index.html" id="navbar-brand">Balder Musik</a>
+            <a href="index.html" id="navbar-brand" style="color: white;">Balder Musik</a>
             <ul>
                 <li>
-                    <a href="#home-section" id="nav-link">Hem</a>
+                    <a href="#home-section" id="nav-link" class="navbar-text-color">Hem</a>
                 </li>
                 <li>
-                    <a href="#about-head-section" id="nav-link">Om Mig</a>
+                    <a href="#about-head-section" id="nav-link" class="navbar-text-color">Om Mig</a>
                 </li>
                 <li>
-                    <a href="#media-head-section" id="nav-link">Media</a>
+                    <a href="#media-head-section" id="nav-link" class="navbar-text-color">Media</a>
                 </li>
                 <li>
-                    <a href="#event-head-section" id="nav-link">Aktuellt</a>
+                    <a href="#event-head-section" id="nav-link" class="navbar-text-color">Aktuellt</a>
                 </li>
                 <li>
-                    <a href="#contact-head-section" id="nav-link">Kontakt</a>
+                    <a href="#contact-head-section" id="nav-link" class="navbar-text-color">Kontakt</a>
                 </li>
             </ul>
         </div>
 
-        <div class="nav-bg" id="nav-bg">
+        <!-- <div class="nav-bg" id="nav-bg">
             <div class="nav-content" id="nav-content">
                 <ul>
                     <li>
@@ -55,11 +55,15 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
         <header id="home-section">
             <div class="home-inner">
-                <h1 id="home-title">BALDER</h1>
+                <video width="320" height="240" playsinline autoplay muted loop poster>
+                    <source src="videos/IMG_0118.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h1 id="home-title">BALDER</h1>
             </div>
         </header>
 
@@ -144,10 +148,18 @@
                         <!-- <iframe class="spotify-follow-button" src="https://open.spotify.com/follow/1/?uri=spotify:artist:5Ma28EMJfrzyxUF14TI1lc?si=z2dPCuQ7T9OFIdEAjV8mAA&size=detail&theme=light" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
                     </div>
                     <div>
-                        <img
+                        <!-- <img
                             src="img/youtube-img.png"
                             class="section-img-video"
-                        />
+                        /> -->
+                        <h1 class="section-img-video">
+                            Video kommer snart!
+                            <i class="fab fa-youtube"></i>
+                        </h1>
+                        <!-- <video width="320" height="240" controls>
+                            <source src="videos/IMG_0118.mov" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video> -->
                     </div>
                 </div>
             </section>
@@ -244,18 +256,22 @@
 
         <!-- FOOTER -->
         <footer class="footer">
+            <h3>Kontakt: <br /><i class="fas fa-envelope"> balder_guevara@hotmail.se</i></h3>
             <p class="footer-copyright">Copyright &copy; <span id="year"></span></p>
             <div class="media-links">
-                <i class="fab fa-facebook fa-3x"></i>
-                <i class="fab fa-twitter fa-3x"></i>
-                <i class="fab fa-youtube fa-3x"></i>
-                <i class="fab fa-spotify fa-3x"></i>
+                <a href="https://www.instagram.com/baldermusik/" class="fa fa-instagram fa-3x"></a>
+                <a href="https://www.youtube.com/watch?v=n0KocvGX3-4" class="fa fa-youtube fa-3x"></a>
+                <a href="https://open.spotify.com/artist/5Ma28EMJfrzyxUF14TI1lc" class="fa fa-spotify fa-3x"></a>
             </div>
             <div class="media-links2">
-                <i class="fab fa-facebook fa-2x"></i>
-                <i class="fab fa-twitter fa-2x"></i>
-                <i class="fab fa-youtube fa-2x"></i>
-                <i class="fab fa-spotify fa-2x"></i>
+                <a href="https://www.instagram.com/baldermusik/" class="fa fa-instagram fa-2x"></a>
+                <a href="https://www.youtube.com/watch?v=n0KocvGX3-4" class="fa fa-youtube fa-2x"></a>
+                <a href="https://open.spotify.com/artist/5Ma28EMJfrzyxUF14TI1lc" class="fa fa-spotify fa-2x"></a>
+            </div>
+            <div class="media-links3">
+                <a href="https://www.instagram.com/baldermusik/" class="fa fa-instagram fa-2x"></a>
+                <a href="https://www.youtube.com/watch?v=n0KocvGX3-4" class="fa fa-youtube fa-2x"></a>
+                <a href="https://open.spotify.com/artist/5Ma28EMJfrzyxUF14TI1lc" class="fa fa-spotify fa-2x"></a>
             </div>
         </footer>
 
