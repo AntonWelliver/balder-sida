@@ -145,6 +145,8 @@ video {
 .section-style-spotify {
 	display: flex;
 	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .spotify-container {
@@ -175,6 +177,16 @@ video {
 	height: 50vh;
 	width: 25vw;
 	margin-left: 10vw;
+	text-align: center;
+}
+.section-img-video2 {
+	height: 50vh;
+	width: 25vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+section h2 {
 	text-align: center;
 }
 section h3 {
@@ -449,23 +461,61 @@ section h3 {
 	background-color: #717171;
 }
 
+@media screen and (max-width: 1600px) {
+	.section-style2 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	.section-img-spotify {
+		height: 50vh;
+		width: 35vw;
+		padding: 0;
+		margin: 0;
+	}
+	.spotify-container {
+		height: 27vh;
+		width: 35vw;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.section-style2 {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	.section-img-spotify {
+		height: 50vh;
+		width: 40vw;
+		padding: 0;
+		margin: 0;
+	}
+	.spotify-container {
+		height: 27vh;
+		width: 40vw;
+		padding: 0;
+		margin: 0;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	/* body {
         background-color: blue;
     } */
 	.section-style2 {
 		display: grid;
-		grid-template-columns: 30% 70%;
+		grid-template-columns: 50% 50%;
 	}
 	.section-img-spotify {
 		height: 50vh;
-		width: 30vw;
+		width: 50vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-container {
 		height: 27vh;
-		width: 30vw;
+		width: 50vw;
 		padding: 0;
 		margin: 0;
 	}
@@ -474,6 +524,11 @@ section h3 {
 		width: 70vw;
 		padding: 0;
 		margin: 0;
+	}
+	.section-img-video2 {
+		height: 77vh;
+		width: 40vw;
+		padding: 0;
 	}
 }
 
