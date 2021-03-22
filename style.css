@@ -111,7 +111,6 @@ video {
 
 #home-section {
 	background-image: linear-gradient(#03002c, #140e52);
-	/* background: url(videos/IMG_0118.mov); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -138,6 +137,13 @@ video {
 }
 
 .section-style-spotify {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-style-video {
 	display: flex;
 	flex-direction: column;
 	margin-left: auto;
@@ -175,8 +181,8 @@ video {
 	text-align: center;
 }
 .section-img-video2 {
-	height: 50vh;
-	width: 25vw;
+	height: 55vh;
+	width: 30vw;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -419,6 +425,24 @@ section h3 {
 	background-size: cover;
 	background-position: center;
 }
+.slide:nth-child(3) {
+	background-image: url('./img/balder-guevara3.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(4) {
+	background-image: url('./img/balder-guevara4.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(5) {
+	background-image: url('./img/balder-guevara5.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 .dot-container {
 	position: absolute;
@@ -461,6 +485,13 @@ section h3 {
 		padding: 0;
 		margin: 0;
 	}
+	.section-img-video2 {
+		height: 50vh;
+		width: 35vw;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -479,6 +510,13 @@ section h3 {
 		width: 40vw;
 		padding: 0;
 		margin: 0;
+	}
+	.section-img-video2 {
+		height: 50vh;
+		width: 40vw;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -506,7 +544,7 @@ section h3 {
 		margin: 0;
 	}
 	.section-img-video2 {
-		height: 77vh;
+		height: 55vh;
 		width: 40vw;
 		padding: 0;
 	}
@@ -690,6 +728,13 @@ section h3 {
 		right: 10%;
 		padding: 0;
 		margin: 0;
+	}
+	.section-img-video2 {
+		height: 57vh;
+		width: 100vw;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
