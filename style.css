@@ -152,7 +152,7 @@ video {
 
 .spotify-container {
 	height: 20vh;
-	width: 25vw;
+	width: 22vw;
 	margin-left: 10vw;
 }
 
@@ -170,7 +170,7 @@ video {
 
 .section-img-spotify {
 	height: 50vh;
-	width: 25vw;
+	width: 22vw;
 	margin-left: 10vw;
 }
 
@@ -475,13 +475,13 @@ section h3 {
 	}
 	.section-img-spotify {
 		height: 50vh;
-		width: 35vw;
+		width: 33vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-container {
-		height: 27vh;
-		width: 35vw;
+		height: 25vh;
+		width: 33vw;
 		padding: 0;
 		margin: 0;
 	}
@@ -501,13 +501,13 @@ section h3 {
 	}
 	.section-img-spotify {
 		height: 50vh;
-		width: 40vw;
+		width: 37vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-container {
-		height: 27vh;
-		width: 40vw;
+		height: 25vh;
+		width: 37vw;
 		padding: 0;
 		margin: 0;
 	}
@@ -527,13 +527,13 @@ section h3 {
 	}
 	.section-img-spotify {
 		height: 50vh;
-		width: 50vw;
+		width: 47vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-container {
-		height: 27vh;
-		width: 50vw;
+		height: 25vh;
+		width: 47vw;
 		padding: 0;
 		margin: 0;
 	}
