@@ -151,12 +151,16 @@ video {
 }
 
 .spotify-container {
-	height: 30vh;
+	height: 20vh;
 	width: 30vw;
 	margin-left: 10vw;
 }
 
 .spotify-song-2 {
+	margin-top: 20px;
+}
+
+.spotify-song-3 {
 	margin-top: 20px;
 }
 
@@ -447,12 +451,42 @@ section h3 {
 	background-size: cover;
 	background-position: center;
 }
+.slide:nth-child(6) {
+	background-image: url('./img/balder-guevara6.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(7) {
+	background-image: url('./img/balder-guevara7.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(8) {
+	background-image: url('./img/balder-guevara8.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(9) {
+	background-image: url('./img/balder-guevara9.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide:nth-child(10) {
+	background-image: url('./img/balder-guevara10.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 .dot-container {
 	position: absolute;
 	bottom: 3%;
-	right: 30%;
-	left: 30%;
+	right: 25%;
+	left: 25%;
 	text-align: center;
 }
 
@@ -484,12 +518,15 @@ section h3 {
 		margin: 0;
 	}
 	.spotify-container {
-		height: 25vh;
+		height: 15vh;
 		width: 33vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-song-2 {
+		margin-top: 20px;
+	}
+	.spotify-song-3 {
 		margin-top: 20px;
 	}
 	.section-img-video2 {
@@ -513,12 +550,15 @@ section h3 {
 		margin: 0;
 	}
 	.spotify-container {
-		height: 25vh;
+		height: 15vh;
 		width: 37vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-song-2 {
+		margin-top: 20px;
+	}
+	.spotify-song-3 {
 		margin-top: 20px;
 	}
 	.section-img-video2 {
@@ -542,12 +582,15 @@ section h3 {
 		margin: 0;
 	}
 	.spotify-container {
-		height: 25vh;
+		height: 15vh;
 		width: 47vw;
 		padding: 0;
 		margin: 0;
 	}
 	.spotify-song-2 {
+		margin-top: 20px;
+	}
+	.spotify-song-3 {
 		margin-top: 20px;
 	}
 	.section-img-video {
@@ -727,7 +770,7 @@ section h3 {
 		display: none;
 	}
 	.spotify-container {
-		height: 20vh;
+		height: 15vh;
 		width: 100vw;
 		left: 10%;
 		right: 10%;
@@ -739,8 +782,12 @@ section h3 {
 		margin-top: 0;
 	}
 
+	.spotify-song-3 {
+		margin-top: 0;
+	}
+
 	.section-img-video {
-		height: 55vh;
+		height: 50vh;
 		width: 100vw;
 		left: 10%;
 		right: 10%;
@@ -748,7 +795,7 @@ section h3 {
 		margin: 0;
 	}
 	.section-img-video2 {
-		height: 57vh;
+		height: 35vh;
 		width: 100vw;
 		text-align: center;
 		margin-left: auto;
